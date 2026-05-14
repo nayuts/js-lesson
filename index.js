@@ -118,13 +118,13 @@
 // }
 
 
-//繰り返し処理
+// 繰り返し処理
 // for (let i = 0; i < 9; i++) {
 //     const foo = i * 2;
 //     console.log(foo);
 // }
 
-const numRange = [1,2,3,4,5];
+// const numRange = [1,2,3,4,5];
 
 // for (let i = 0; i < numRange.length; i++) {
 //     const value = numRange[i];
@@ -141,11 +141,11 @@ const numRange = [1,2,3,4,5];
 // }
 // console.log(newNumrange);
 
-const foo = numRange.map((num) => {
-    return num * 2;
-});
+// const foo = numRange.map((num) => {
+//     return num * 2;
+// });
 
-console.log(foo);
+// console.log(foo);
 
 //関数
 // function samoleFunc() {
@@ -158,19 +158,188 @@ console.log(foo);
 // }
 
 //引数あり
-function samoleFunc2(num, num2, num3) {
-    const result = num + num2 + num3;
-    console.log(result);
-}
+// function samoleFunc2(num, num2, num3) {
+//     const result = num + num2 + num3;
+//     console.log(result);
+// }
 
 //引数あり & 返り値あり
-function samoleFunc3(num1,num2) {
-    const result = num1 * num2;
-    return result;
-}
-const res = samoleFunc3(2, 4)
-console.log(res);
+// function samoleFunc3(num1,num2) {
+//     const result = num1 * num2;
+//     return result;
+// }
+// const res = samoleFunc3(2, 4)
+// console.log(res);
 
 
 // const str = "sample";
 // console.log(str);
+
+
+
+// const numRange = [];
+// const newNumList = [];
+// for (const num of numRange) {
+//     newNumList.push(num);
+// }
+
+// console.log(newNumList);
+
+
+
+
+
+
+
+
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 2 == 0) {
+//         console.log("偶数です");
+//     }
+//     else {
+//         console.log("奇数です");
+//     }
+//     const foo =(i);
+//     console.log(foo);
+// }
+
+// for (let i = 1; i <= 100; i++) {
+//     const foo =(i);
+
+//     if (i % 2 == 0) {
+//         console.log(foo + " 偶数です");
+//     }
+//     else {
+//         console.log(foo + " 奇数です");
+//     }
+// }
+
+//課題１
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 2 == 0) {
+//         console.log(i + " 偶数です");
+//     }
+//     else {
+//         console.log(i + " 奇数です");
+//     }
+// }
+
+// const num = 1;
+// if (i % 2 == 0) {
+//     console.log("奇数です");
+// }
+// else {
+//     console.log("偶数です");
+// }
+
+
+// const numRange = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// const newNumList = [];
+// for (const num of numRange) {
+//     newNumList.push(num * 1);
+    
+// }
+// console.log(newNumList);
+
+// const newNumList2 = [];
+// for (const num of numRange) {
+//     newNumList2.push(num * 2);
+// }
+// console.log(newNumList2);
+
+// const newNumList3 = [];
+// for (const num of numRange) {
+//     newNumList3.push(num * 3);
+// }
+// console.log(newNumList3);
+
+// const newNumList4 = [];
+// for (const num of numRange) {
+//     newNumList4.push(num * 4);
+// }
+// console.log(newNumList4);
+
+// const newNumList5 = [];
+// for (const num of numRange) {
+//     newNumList5.push(num * 5);
+// }
+// console.log(newNumList5);
+
+// const newNumList6 = [];
+// for (const num of numRange) {
+//     newNumList6.push(num * 6);
+// }
+// console.log(newNumList6);
+
+// const newNumList7 = [];
+// for (const num of numRange) {
+//     newNumList7.push(num * 7);
+// }
+// console.log(newNumList7);
+
+// const newNumList8 = [];
+// for (const num of numRange) {
+//     newNumList8.push(num * 8);
+// }
+// console.log(newNumList8);
+
+// const newNumList9 = [];
+// for (const num of numRange) {
+//     newNumList9.push(num * 9);
+// }
+// console.log(newNumList9);
+
+// const huhu = [];
+// for (let i = 1; i < 10; i++) {
+//     huhu.push(i * 1);
+//     huhu.push(i * 2);
+//     console.log(huhu);
+// }
+
+// for (let i = 1; i <= 100; i++) {
+//     // const foo = i * 1;
+//     if (i % 3 == 0 && i % 5 == 0) {
+//         console.log("FizzBuzz");
+//     }   
+//     else if (i % 3 == 0) {
+//         console.log("Fizz");
+//     }
+//     else if (i % 5 == 0) {
+//         console.log("Buzz");
+//     }
+//     // else if (i % 3 == 0 && i % 5 == 0) {
+//     //     console.log("FizzBuzz");
+//     // }   
+//     else {
+//         console.log(i);
+//     }    
+//     // console.log(i);
+// }
+
+for (let i = 1; i <= 100; i++) {
+    let huhu ="";
+    if (i % 3 == 0) {
+        huhu = huhu + "Fizz";
+    }   
+    if (i % 5 == 0) {
+        huhu = huhu + "Buzz";
+    }
+    if (huhu == "") {
+        huhu = i;
+    }
+    console.log(huhu);
+}
+
+
+
+// const newNumList = [];
+for (let i = 1; i <= 9; i++) {
+    const newNumList = [];
+    for (let j = 1; j <=9; j++){
+        newNumList.push(i * j);
+    }
+    console.log(newNumList);
+    console.log(i)
+}
+// console.log(newNumList);
